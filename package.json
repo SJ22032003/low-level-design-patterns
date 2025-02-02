@@ -1,0 +1,19 @@
+{
+  "name": "all-design-pattern",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "server": "bun --watch index.ts",
+    "start": "node dist/bundle.js",
+    "build": "bun esbuild.config.js"  
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.2"
+  }
+}
